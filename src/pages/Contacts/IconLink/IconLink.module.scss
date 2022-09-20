@@ -1,0 +1,26 @@
+@import '../../assets/scss/utils/variables';
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid $main-color;
+    background-color: $main-bg-color;
+
+    &:nth-child(-n + 4 ){
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 620px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 620px) {
+    .link:nth-child(4) {
+        margin-bottom: 0;
+    }
+}

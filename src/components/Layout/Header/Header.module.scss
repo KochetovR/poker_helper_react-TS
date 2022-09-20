@@ -1,0 +1,62 @@
+@import '../../assets/scss/utils/variables';
+
+.headerContainer {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  padding: 2.5% 6%;
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  background: linear-gradient(rgba(0, 0, 0, 1) 56%, rgba(14, 8, 5, 0.37));
+
+  @media (max-width: $max-mobile) {
+    max-width: $tablet;
+  }
+
+  @media (min-width: $tablet) and (max-width: $max-tablet) {
+    max-width: $max-tablet;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: $desktop;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+  .buttonLogo {
+    width: 43px;
+    height: 41px;
+    margin-right: 7.5%;
+    padding: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+
+  .title {
+    width: 191px;
+    height: 27px;
+  }
+
+  // animate navMenu
+.visible {
+  animation: visibleMenu .5s forwards;
+}
+
+.hidden {
+  animation: visibleMenu .5s reverse;
+}
+
+@keyframes visibleMenu {
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}

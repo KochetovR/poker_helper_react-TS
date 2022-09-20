@@ -1,0 +1,39 @@
+@import '../../assets/scss/utils/variables';
+
+.positionButton {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    opacity: 0.85;
+    border-radius: 50%;
+    border: none;
+    font-family: 'BrunoAce';
+    background-color: $secondary-bg-color;
+    color: $main-color;
+
+    transition: $animation-transition;
+}
+
+.active {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 28px 10px rgb(15, 14, 14);
+    transition: $animation-transition;
+ }
+
+.hero {
+    background-color: $hero-color;
+}
+
+.caller {
+    background-color: $caller-color;
+}
+
+.better {
+    background-color: $better-color;
+}
+
+.disabled {
+    opacity: 0.3;
+    transition: $animation-transition;
+}

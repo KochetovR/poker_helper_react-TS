@@ -1,0 +1,53 @@
+[
+    {
+        "title": "Squeeze",
+        "description": "Squeeze - A pre-flop reraise where player A bets, player B calls, and you make a big squeeze to squeeze both opponents out and take the pot immediately.",
+        "type": "sqz",
+        "stack": ["30", "50", "100"],
+        "players": ["hero", "better", "caller"]
+    },
+    {
+        "title": "vs Open",
+        "description": "A situation where one opponent raised to you and you need to make one of three decisions: fold; 3bet or call.",
+        "type": "vsOpen",
+        "stack": ["15", "20", "25", "30", "50", "100"],
+        "players": ["hero", "better"]
+    },
+    {
+        "title": "vs 3Bet",
+        "description": "The situation when you raised and the player re-raised behind you.",
+        "type": "vs3bet",
+        "stack": ["30", "50", "100"],
+        "players": ["hero", "better"]
+    },
+    {
+        "title": "BB defense",
+        "description": "The situation when you are in the big blind and one of the players raises.",
+        "type": "bb",
+        "stack": ["15", "20", "25", "30", "50", "100"],
+        "players": ["hero", "better"]
+    },
+    {
+        "title": "Open Push",
+        "description": "Push is a slang expression for the action of a player who goes all-in and “pushes” (push) his stack into the center of the table.",
+        "type": "push",
+        "stack": ["5", "7", "10", "12", "14", "16"],
+        "players": ["hero"]
+    },
+    {
+        "title": "BvB",
+        "description": "The situation when only the small and big blind remained in the game preflop.",
+        "type": "bvb",
+        "stack": ["20", "25", "30", "50", "100"],
+        "players": ["hero"],
+        "BB_action": ["vs limp", "vs raise"],
+        "SB_action": ["vs iso", "open", "vs 3bet"]
+    },
+    {
+        "title": "RFI",
+        "description": "The abbreviation RFI stands for “raise first in” and describes the situation when a player raises preflop, becoming the first person to voluntarily invest money in the pot.",
+        "type": "rfi",
+        "stack": ["15", "20", "25", "30", "50", "100"],
+        "players": ["hero"]
+    }
+]

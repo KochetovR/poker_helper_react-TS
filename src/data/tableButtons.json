@@ -1,0 +1,251 @@
+[
+    {
+        "position": "bu",
+        "top": 360,
+        "left": 110,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true,
+                "better": true,
+                "caller": true
+            },
+            "vsOpen": {
+                "activeHero": {
+                    "better": ["ep1", "mp", "mp3", "co"]
+                }
+            },
+            "sqz": {
+                "activeHero": {
+                    "better": ["co", "sb"],
+                    "caller": ["co"]
+                }
+            }
+        }
+    },
+    {
+        "position": "sb",
+        "top": 290,
+        "left": 23,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "rfi": {
+                "hero": true
+            },
+            "vs3bet": {
+                "hero": true
+            },
+            "vsOpen": {
+                "better": true
+            },
+            "sqz": {
+                "activeHero": {
+                    "better": ["bb", "co", "bu"],
+                    "caller": ["bu", "co"]
+                },
+                "activeBetter": {
+                    "better": ["bu", "co"]
+                }
+            }
+        }
+    },
+    {
+        "position": "bb",
+        "top": 210,
+        "left": 20,
+        "disabled": {
+            "rfi": {
+                "hero": true
+            },
+            "push": {
+                "hero": true
+            },
+            "vs3bet": {
+                "hero": true
+            },
+            "sqz": {
+                "better": true,
+                "caller": true
+            },
+            "vsOpen": {
+                "hero": true,
+                "better": true
+            }
+        },
+        "autoActive": "bb"
+    },
+    {
+        "position": "ep",
+        "top": 130,
+        "left": 20,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "vs3bet": {
+                "hero": true,
+                "better": true
+            },
+            "sqz": {
+                "hero": true,
+                "better": true,
+                "caller": true
+            },
+            "vsOpen": {
+                "hero": true
+            }
+        }
+    },
+    {
+        "position": "ep1",
+        "top": 50,
+        "left": 43,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "push": {
+                "hero": true
+            },
+            "rfi": {
+                "hero": true
+            },
+            "vs3bet": {
+                "hero": true,
+                "better": true
+            },
+            "sqz": {
+                "hero": true,
+                "better": true,
+                "caller": true
+            },
+            "vsOpen": {
+                "better": true
+            }
+        }
+    },
+    {
+        "position": "mp",
+        "top": 50,
+        "left": 177,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "vs3bet": {
+                "better": true
+            },
+            "vsOpen": {
+                "activeHero": {
+                    "better": ["ep1"]
+                }
+            },
+            "sqz": {
+                "hero": true,
+                "caller": true
+            }
+        }
+    },
+    {
+        "position": "mp2",
+        "top": 130,
+        "left": 200,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "vs3bet": {
+                "hero": true,
+                "better": true
+            },
+            "sqz": {
+                "hero": true,
+                "better": true,
+                "caller": true
+            },
+            "vsOpen": {
+                "hero": true,
+                "better": true
+            }
+        }
+    },
+    {
+        "position": "mp3",
+        "top": 210,
+        "left": 200,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "vs3bet": {
+                "activeHero": {
+                    "better": ["bu", "co"]
+                }
+            },
+            "sqz": {
+                "hero": true,
+                "activeHero": {
+                    "better": ["co"]
+                },
+                "activeBetter": {
+                    "caller": ["co", "bu"]
+                }
+            },
+            "vsOpen": {
+                "activeHero": {
+                    "better": ["ep1", "mp"]
+                }
+            }
+        }
+    },
+    {
+        "position": "co",
+        "top": 290,
+        "left": 198,
+        "disabled": {
+            "bb": {
+                "hero": true
+            },
+            "bvb": {
+                "hero": true
+            },
+            "vs3bet": {
+                "activeHero": {
+                    "better": ["bu"]
+                }
+            },
+            "sqz": {
+                "activeHero": {
+                    "better": ["bu"]
+                },
+                "activeBetter": {
+                    "caller": ["bu"]
+                }
+            },
+            "vsOpen": {
+                "activeHero": {
+                    "better": ["ep1", "mp", "mp3"]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,44 @@
+@import '../../assets/scss/utils/variables';
+@import '../../assets/scss/utils/placeholder';
+
+.popupBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  @media screen and (max-height: 675px) {
+        overflow: scroll;
+  }
+}
+
+.popupContent {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 50px);
+  @extend %flexColum;
+  min-height: 160px;
+  min-width: 220px;
+  padding: 10px 10px;
+  background-color: $secondary-bg-color;
+  border-radius: 20px;
+  border: solid 2px $border-color;
+  box-shadow: 0px 0px 11px 8px $border-color;
+
+  @media screen and (min-width: $tablet) {
+        max-width: $mobile-middle;
+  }
+}
+
+  .description {
+    margin-top: 0;
+
+    font-family: $main-font;
+    font-size: 12px;
+    line-height: 2.2;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
