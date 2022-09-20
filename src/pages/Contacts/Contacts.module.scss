@@ -1,0 +1,14 @@
+@import '../../assets/scss/utils/variables';
+
+.linksBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 170px;
+    margin: 0 auto;
+
+
+    @media (min-width: 620px) {
+        width: 320px;
+    }
+}

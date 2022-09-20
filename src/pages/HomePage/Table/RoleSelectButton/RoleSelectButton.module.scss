@@ -1,0 +1,37 @@
+@import '../../assets/scss/utils/variables';
+
+.button {
+    width: 70px;
+    height: 40px;
+    box-sizing: content-box;
+    padding: 0;
+    opacity: 0.45;
+    border-radius: 11px;
+    outline: none;
+    background: transparent;
+    font-size: 14px;
+    font-family: $main-font;
+    transition: $animation-transition;
+}
+
+.hero {
+    border: 3px solid $hero-color;
+    color: $hero-color;
+}
+
+.caller {
+    border: 3px solid $caller-color;
+    color: $caller-color;
+}
+
+.better {
+    border: 3px solid $better-color;
+    color: $better-color;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px 5px rgb(15, 14, 14);
+    transition: $animation-transition;
+}

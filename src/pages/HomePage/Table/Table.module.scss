@@ -1,0 +1,62 @@
+@import '../../assets/scss/utils/variables';
+@import '../../assets/scss/utils/placeholder';
+
+.tableWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    min-height: 640px;
+    background-color: $secondary-bg-color;
+    z-index: 2;
+}
+
+.table {
+    position: relative;
+    width: 280px;
+    height: 440px;
+    margin: 0 auto;
+    border: 10px solid #000;
+    border-radius: 150px;
+
+    background: $table-bg-color;
+    box-shadow: 0 0 14px 4px rgba(255, 255, 255, 0.60);
+    
+}
+.borderTable {
+  width: 240px;
+  height: 401px;
+  margin: 0 auto;
+  border: 4px solid #fff;
+  border-radius: 150px;
+  margin-top: 16px;
+  box-shadow: 0 0 0px 16px rgba(84, 63, 30, 0.70);
+}
+
+.roleButtonsWrapper {
+  position: absolute;
+  top: 140px;
+  left: 100px;
+  @extend %flexColum;
+  width: 80px;
+  height: 160px;
+}
+
+.actionWrapper {
+  position: absolute;
+  top: 225px;
+  left: 100px;
+  @extend %flexColum;
+  width: 80px;
+  max-height: 200px;
+}
+
+
+
+
+
+
+

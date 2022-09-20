@@ -1,0 +1,56 @@
+@import-normalize;
+
+@import './fonts.scss';
+@import './utils/variables';
+@import './utils/placeholder';
+
+body {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+  font-family: $main-font;
+  font-size: 20px;
+  color: $main-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('../img/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url('../img/background@2x.png');
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: $mobile-middle;
+  min-width: $mobile;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav a {
+  color: $main-color;
+  text-decoration: none;
+}
